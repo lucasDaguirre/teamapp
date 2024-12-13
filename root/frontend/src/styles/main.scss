@@ -1,0 +1,18 @@
+/* main.scss */
+
+/*NOTE: This main.scss file is being injected globally through vite.config.ts*/
+
+// IMPORTS 
+
+@use './base/reset.scss';
+@use './mixins/mixins.scss';
+@use './variables/variables.scss';
+
+// Fonts
+
+// STYLING
+
+/* Fonts */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}

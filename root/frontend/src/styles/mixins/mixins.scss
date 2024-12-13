@@ -1,0 +1,8 @@
+/* mixins.scss */
+
+@mixin page-max-width($max-width: 2400px) {
+    width: 100%; /* Full width for smaller screens */
+    max-width: $max-width; /* Restrict maximum width */
+    margin: 0 auto; /* Center the content */
+    padding: 0 1rem;
+}

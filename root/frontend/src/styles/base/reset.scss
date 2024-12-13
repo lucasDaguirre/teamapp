@@ -1,0 +1,87 @@
+/* reset.scss */
+
+/* 1. Reset the default margin, padding, and box-sizing for all elements */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Set default font settings */
+html {
+  font-size: 16px; /* Base font size (e.g., 1rem = 16px) */
+  line-height: 1.5; /* Improve text readability */
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in mobile browsers */
+  scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
+
+/* 3. Reset body styles */
+body {
+  margin: 0;
+  background-color: #ffffff; /* Neutral background color */
+  color: #333333; /* Default text color */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  text-rendering: optimizeLegibility; /* Improve font rendering */
+}
+
+/* 4. Remove default styles for headers */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* 5. Reset unordered and ordered lists */
+ul, ol {
+  list-style: none;
+}
+
+/* 6. Reset anchor links */
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* 7. Reset images, videos, and iframes */
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 0;
+}
+
+/* 8. Reset forms */
+button, input, textarea, select {
+  font: inherit; /* Use the parent's font */
+  color: inherit; /* Inherit text color */
+  border: none; /* Remove default borders */
+  outline: none; /* Remove default outlines */
+  background: none; /* Remove default background */
+}
+
+/* 9. Set buttons and clickable elements */
+button {
+  cursor: pointer;
+}
+
+/* 10. Remove table spacing */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 11. Reset blockquote and figures */
+blockquote, figure {
+  margin: 0;
+  padding: 0;
+}
+
+button, a {
+  outline: none; /* Remove focus outline for all interactions */
+}
+
+button:focus-visible, a:focus-visible {
+  outline: 2px solid blue; /* Show focus outline only for keyboard navigation */
+}
