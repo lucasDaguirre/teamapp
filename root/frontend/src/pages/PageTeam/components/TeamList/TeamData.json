@@ -1,0 +1,56 @@
+{
+    "headers": [
+      { "key": "name", "label": "Name" },
+      { "key": "email", "label": "Email" },
+      { "key": "accessLevel", "label": "Access Level" },
+      { "key": "role", "label": "Role" },
+      { "key": "hasAccount", "label": "Status" }
+    ],
+    "rows": [
+      {
+        "id": 1,
+        "userId": "uuid-1",
+        "name": "Alice Johnson",
+        "role": "Store Manager",
+        "accessLevel": "Manager",
+        "hasAccount": "Active",
+        "email": "alice.johnson@store.com"
+      },
+      {
+        "id": 2,
+        "userId": "uuid-2",
+        "name": "Bob Smith",
+        "role": "Shift Lead, Grocery Associate",
+        "accessLevel": "Shift Lead",
+        "hasAccount": "Active",
+        "email": "bob.smith@store.com"
+      },
+      {
+        "id": 3,
+        "userId": "uuid-3",
+        "name": "Carol Davis",
+        "role": "Shift Lead, Grocery Associate",
+        "accessLevel": "Shift Lead",
+        "hasAccount": "Active",
+        "email": "carol.davis@store.com"
+      },
+      {
+        "id": 4,
+        "userId": "uuid-4",
+        "name": "David Lee",
+        "role": "Shift Lead, Grocery Associate",
+        "accessLevel": "Shift Lead",
+        "hasAccount": "Active",
+        "email": "david.lee@store.com"
+      },
+      {
+        "id": 5,
+        "userId": "uuid-5",
+        "name": "Eva Brown",
+        "role": "Shift Lead, Grocery Associate",
+        "accessLevel": "Shift Lead",
+        "hasAccount": "Active",
+        "email": "eva.brown@store.com"
+      }
+    ]
+  }

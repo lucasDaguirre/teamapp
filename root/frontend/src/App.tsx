@@ -10,6 +10,7 @@ import ContentContainer from './components/ContentContainer/ContentContainer';
 /* Pages */
 import PageHome from './pages/PageHome/PageHome';
 import Page404 from './pages/Page404/Page404';
+import PageTeam from './pages/PageTeam/PageTeam';
 
 function App() {
 
@@ -23,7 +24,8 @@ function App() {
               <Routes>
 
                 {/* ROUTES */}
-                <Route path="/home/*" element={<PageHome />} />
+                <Route path="/home" element={<PageHome />} />
+                <Route path="/team" element={<PageTeam />} />
                 <Route path="*" element={<Page404 />} />
 
                 {/* RE ROUTES */}
