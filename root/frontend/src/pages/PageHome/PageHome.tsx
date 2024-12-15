@@ -1,10 +1,14 @@
 import React from 'react';
 import './PageHome.scss';
+import Card from '../../components/Card/Card';
 
 const PageHome = () => {
   return (
     <div className="page-home">
-      This is the PageHome page :)
+      <Card title={{
+        text: "Title",
+        size: "h3",
+      }}/>
     </div>
   )
 }

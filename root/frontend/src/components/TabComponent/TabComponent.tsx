@@ -3,11 +3,14 @@ import './TabComponent.scss';
 
 import TabSelector from './component/TabSelector/TabSelector';
 
+
+// HARDCODE START
+
 const test = (input:string) => {
   console.log(input);
 };
 
-const TabSelectorProps = [
+const tabs = [
   {
     label: "Tab 1",
     onClick: () => test("Tab 1 Clicked!"),
@@ -17,11 +20,14 @@ const TabSelectorProps = [
     onClick: () => test("Tab 2 Clicked!"),
   },
 ];
+
+// HARDCODE END
+
 const TabComponent = () => {
   return (
     <div className="tab-component">
       <TabSelector 
-      tabs={TabSelectorProps}/>
+      tabs={tabs}/>
     </div>
   )
 }
