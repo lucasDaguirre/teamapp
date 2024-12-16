@@ -10,17 +10,23 @@ type CardProps = {
 }
 
 const Card = ({
-  title
+  title,
+  content
 }: CardProps) => {
   return (
     <div className="card">
-      {(!title) ? null : (
-        React.createElement(
-          title.size,
-          { className: "card-title" },
-          title.text
-        )
-      )}
+      <div>
+        {(!title) ? null : (
+          React.createElement(
+            title.size,
+            { className: "card-title" },
+            title.text
+          )
+        )}
+      </div>
+      <div>
+        {(content)}
+      </div>
     </div>
   )
 }

@@ -1,0 +1,13 @@
+/* authlayout.scss */
+
+// IMPORTS
+
+// STYLING
+.auth-layout{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  > div {
+    flex: 1;
+  }
+}

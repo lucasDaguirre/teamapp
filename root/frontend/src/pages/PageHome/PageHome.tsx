@@ -8,7 +8,11 @@ const PageHome = () => {
       <Card title={{
         text: "Title",
         size: "h3",
-      }}/>
+      }}
+      content={
+        "yes"
+      }
+      />
     </div>
   )
 }
