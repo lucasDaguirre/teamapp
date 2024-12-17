@@ -29,5 +29,12 @@ namespace BackendAPI.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("hello")]
+        public IActionResult GetHello()
+        {
+            return Ok(new { message = "Hello from ASP.NET Core!" });
+        }
+
     }
 }

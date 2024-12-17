@@ -27,10 +27,10 @@ C:\Users\Lucas\Documents\Coding\TeamApp\root\backend\obj\Debug\net8.0\staticweba
 C:\Users\Lucas\Documents\Coding\TeamApp\root\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BackendAPI.props
 C:\Users\Lucas\Documents\Coding\TeamApp\root\backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BackendAPI.props
 C:\Users\Lucas\Documents\Coding\TeamApp\root\backend\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Lucas\Documents\Coding\TeamApp\root\backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Lucas\Documents\Coding\TeamApp\root\backend\obj\Debug\net8.0\BackendAPI.csproj.Up2Date
 C:\Users\Lucas\Documents\Coding\TeamApp\root\backend\obj\Debug\net8.0\BackendAPI.dll
 C:\Users\Lucas\Documents\Coding\TeamApp\root\backend\obj\Debug\net8.0\refint\BackendAPI.dll
 C:\Users\Lucas\Documents\Coding\TeamApp\root\backend\obj\Debug\net8.0\BackendAPI.pdb
 C:\Users\Lucas\Documents\Coding\TeamApp\root\backend\obj\Debug\net8.0\BackendAPI.genruntimeconfig.cache
 C:\Users\Lucas\Documents\Coding\TeamApp\root\backend\obj\Debug\net8.0\ref\BackendAPI.dll
+C:\Users\Lucas\Documents\Coding\TeamApp\root\backend\obj\Debug\net8.0\BackendAPI.sourcelink.json

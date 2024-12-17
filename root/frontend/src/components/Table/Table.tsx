@@ -2,7 +2,7 @@ import React from 'react';
 import './Table.scss';
 import { TableModel } from '../../../../shared/models/TableModel';
 
-type TableProps = {
+export type TableProps = {
   data: TableModel
 };
 

@@ -4,6 +4,8 @@ namespace BackendAPI
     public class Program
     {
         public static void Main(string[] args)
+
+
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +18,16 @@ namespace BackendAPI
 
             var app = builder.Build();
 
+            builder.Services.AddCors(options =>
+            {
+            options.AddDefaultPolicy(policy =>
+            {
+            policy.WithOrigins("http://192.168.0.95:5173") // URL where your React app runs
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+            });
+            });
+
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -24,6 +36,9 @@ namespace BackendAPI
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors(); //ADDED
+            
 
             app.UseAuthorization();
 

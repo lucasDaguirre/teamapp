@@ -1,11 +1,24 @@
 import React from 'react';
 import './Input.scss';
 
-const Input = () => {
+export type InputProps = {
+  type: string;
+  name: string;
+  label: string;
+  required?: boolean;
+  placeholder?: string;
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
+};
+
+const Input = ({
+  required = false,
+  ...props
+
+}: InputProps) => {
   return (
-    <div className="input">
-      This is the Input component :)
-    </div>
+    <input
+        {...props}
+    />
   )
 }
 

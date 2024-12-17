@@ -1,5 +1,5 @@
 import React from 'react';
-import './LoginCard.scss';
+import './CreateAccountCard.scss';
 import Card from '../../../../components/Card/Card';
 import Form, { FormProps } from '../../../../components/Form/Form';
 import Button from '../../../../components/Button/Button';
@@ -38,12 +38,12 @@ const formProps : FormProps = {
 };
 
 
-const LoginCard = () => {
+const CreateAccountCard = () => {
   return (
-    <div className="login-card">
+    <div className="create-account-card">
       <Card 
         title={{
-            text: "Login", 
+            text: "Create your account", 
             size: "h2"
         }}
         content={
@@ -62,4 +62,4 @@ const LoginCard = () => {
   )
 }
 
-export default LoginCard;
+export default CreateAccountCard;
